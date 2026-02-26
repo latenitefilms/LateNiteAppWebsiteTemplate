@@ -1,3 +1,3 @@
 # Uninstall
 
-To uninstall **Application Name**, simply drag the application to the trash/bin.
+To uninstall **<<APPLICATION_FULL_NAME>>**, simply drag the application to the trash/bin.

@@ -1,3 +1,3 @@
-# Application Name
+# <<APPLICATION_FULL_NAME>>
 
-App Description
+Application description coming soon!
