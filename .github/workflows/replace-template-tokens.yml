@@ -7,10 +7,6 @@ on:
         description: "Application full name"
         required: true
         type: string
-      github_project_name:
-        description: "GitHub project/repository name"
-        required: true
-        type: string
       cost:
         description: "Displayed purchase cost"
         required: true
@@ -35,7 +31,7 @@ jobs:
       - name: Replace template tokens
         env:
           APPLICATION_FULL_NAME: ${{ inputs.application_full_name }}
-          GITHUB_PROJECT_NAME: ${{ inputs.github_project_name }}
+          GITHUB_PROJECT_NAME: ${{ github.event.repository.name }}
           COST: ${{ inputs.cost }}
           APPSTORE_URL: ${{ inputs.appstore_url }}
         run: |
